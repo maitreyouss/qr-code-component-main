@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Card component réutilisable (optionnel) */
+  .card {
+    @apply bg-white rounded-card shadow-card;
+    @apply p-card-padding pb-card-padding-bottom;
+  }
+  
+  .card-image {
+    @apply w-full rounded-image mb-image-spacing;
+  }
+  
+  .card-content {
+    @apply text-center space-y-content-gap;
+    @apply px-content-padding-x pb-content-padding-bottom;
+  }
+  
+  .card-title {
+    @apply text-title font-bold text-dark-blue leading-tight;
+  }
+  
+  .card-description {
+    @apply text-body text-grayish-blue leading-relaxed;
+  }
+}
