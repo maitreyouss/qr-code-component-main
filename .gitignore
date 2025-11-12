@@ -1,0 +1,40 @@
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Design files (optional - uncomment if needed)
+# design/
+# *.fig
+# *.sketch
+# *.xd
+
+# Tailwind generated files
+style.css
+style.css.map
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Lock files (optional - keep package-lock.json for consistency)
+# package-lock.json
