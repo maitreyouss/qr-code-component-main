@@ -1,72 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Google Fonts - Outfit -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Tailwind CSS (compilé) -->
-  <link rel="stylesheet" href="./style.css">
+    <!-- Tailwind CSS (compiled) -->
+    <link rel="stylesheet" href="./style.css" />
 
-  <title>Frontend Mentor | QR code component</title>
-</head>
+    <title>Frontend Mentor | QR code component</title>
+  </head>
 
-<body class="min-h-screen flex flex-col items-center justify-center bg-light-gray font-outfit p-6">
-  
-  <!-- Main QR Code Component -->
-  <main class="w-full max-w-card">
-    <article class="card">
-      
-      <!-- QR Code Image -->
-      <img 
-        src="./assets/images/image-qr-code.png" 
-        alt="QR code to visit Frontend Mentor website" 
-        class="card-image"
-        loading="lazy"
-      >
-      
-      <!-- Card Content -->
-      <div class="card-content">
-        <h1 class="card-title">
-          Improve your front-end skills by building projects
-        </h1>
-        
-        <p class="card-description">
-          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-        </p>
-      </div>
-      
-    </article>
-  </main>
+  <body
+    class="min-h-screen flex flex-col items-center justify-center bg-light-gray font-outfit p-6"
+  >
+    <!-- Main QR Code Component -->
+    <main>
+      <article class="max-w-card card">
+        <!-- QR Code Image -->
+        <img
+          src="./assets/images/image-qr-code.png"
+          alt="QR code to visit Frontend Mentor website"
+          class="card-image"
+          loading="lazy"
+        />
 
-  <!-- Attribution Footer -->
-  <footer class="text-attribution text-center mt-8 text-grayish-blue">
-    Challenge by 
-    <a 
-      href="https://www.frontendmentor.io?ref=challenge" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      class="text-attribution-link font-bold hover:underline transition-colors"
-    >
-      Frontend Mentor
-    </a>. 
-    Coded by 
-    <a 
-      href="https://github.com/yourusername" 
-      target="_blank"
-      rel="noopener noreferrer"
-      class="text-dark-blue font-bold hover:underline transition-colors"
-    >
-      Youssouf Sokhona
-    </a>.
-  </footer>
-  
-</body>
+        <!-- Card Content -->
+        <div class="card-content">
+          <h1 class="card-title">
+            Improve your front-end skills by building projects
+          </h1>
+
+          <p class="card-description">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>

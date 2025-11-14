@@ -10,7 +10,7 @@
 }
 
 @layer components {
-  /* Card component réutilisable (optionnel) */
+  /* Reusable card component (optional) */
   .card {
     @apply bg-white rounded-card shadow-card;
     @apply p-card-padding pb-card-padding-bottom;
